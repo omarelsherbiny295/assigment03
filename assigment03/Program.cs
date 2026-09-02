@@ -67,13 +67,25 @@
             #endregion
 
             #region question7
-            string[] books = { "clean code ", "the pragmtic programmer ", "refactoring " };
+            //string[] books = { "clean code ", "the pragmtic programmer ", "refactoring " };
 
+            //foreach (string book in books)
+            //{
+            //  Console.WriteLine(book);
+            //}
+
+            #endregion
+
+            #region question8
+            string[] books = { "clean code ", "the pragmtic programmer ", "refactoring " };
             foreach (string book in books)
             {
-              Console.WriteLine(book);
+                Console.WriteLine(book);
+                if (book=="refactoring ")
+                {
+                    break;
+                }
             }
-              
             #endregion
         }
         }
