@@ -4,7 +4,20 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
+            #region question1
+
+            int pages = 464;
+            bool isavalibale = true;
+
+            if (pages>300 && isavalibale ==true)
+            {
+                Console.WriteLine("you can borrow this book");
+            }
+
+
+            #endregion
+
         }
     }
 }
