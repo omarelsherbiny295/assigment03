@@ -41,11 +41,14 @@
 
 
             #region question3
-            int pages = 464;
-            string sizelabel = pages > 300 ? "long book " : "short book";
-            Console.WriteLine(sizelabel);
+            //int pages = 464;
+            //string sizelabel = pages > 300 ? "long book " : "short book";
+            //Console.WriteLine(sizelabel);
             #endregion
 
+            #region question4
+            //cannot answer
+            #endregion
         }
         }
 }
