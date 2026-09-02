@@ -19,29 +19,33 @@
             #endregion
 
             #region question2
-            string title = "refactoring";
+            //string title = "refactoring";
 
-            switch (title)
-            {
+            //switch (title)
+            //{
 
-                case "clean code" :
-                    Console.WriteLine("great choice ");
-                    break;
+            //    case "clean code":
+            //        Console.WriteLine("great choice ");
+            //        break;
 
-                case "refactoring":
-                    Console.WriteLine("nice pickk ");
-                    break;
+            //    case "refactoring":
+            //        Console.WriteLine("nice pickk ");
+            //        break;
 
-                default:
-                    Console.WriteLine("NEVER HEARD OF IT ");
-                    break;
+            //    default:
+            //        Console.WriteLine("NEVER HEARD OF IT ");
+            //        break;
 
-            }
+            //}
             #endregion
 
 
-
+            #region question3
+            int pages = 464;
+            string sizelabel = pages > 300 ? "long book " : "short book";
+            Console.WriteLine(sizelabel);
+            #endregion
 
         }
-    }
+        }
 }
