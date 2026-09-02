@@ -55,15 +55,25 @@
             #endregion
 
             #region question6
-            int i = 1;
-            do
+            //int i = 1;
+            //do
+            //{
+            //    Console.WriteLine("cheking book");
+            //    i++;
+            //}
+            //while (i <= 3);
+
+
+            #endregion
+
+            #region question7
+            string[] books = { "clean code ", "the pragmtic programmer ", "refactoring " };
+
+            foreach (string book in books)
             {
-                Console.WriteLine("cheking book");
-                i++;
+              Console.WriteLine(book);
             }
-            while (i <= 3);
-
-
+              
             #endregion
         }
         }
