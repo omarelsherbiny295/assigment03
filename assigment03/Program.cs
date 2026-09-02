@@ -53,6 +53,18 @@
             #region question5
             //Cannot answer
             #endregion
+
+            #region question6
+            int i = 1;
+            do
+            {
+                Console.WriteLine("cheking book");
+                i++;
+            }
+            while (i <= 3);
+
+
+            #endregion
         }
         }
 }
